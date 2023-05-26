@@ -1,5 +1,4 @@
 ID,Directory,MapName_lang,MapDescription0_lang,MapDescription1_lang,PvpShortDescription_lang,PvpLongDescription_lang,Corpse_0,Corpse_1,MapType,InstanceType,ExpansionID,AreaTableID,LoadingScreenID,TimeOfDayOverride,ParentMapID,CosmeticParentMapID,TimeOffset,MinimapIconScale,CorpseMapID,MaxPlayers,WindSettingsID,ZmpFileDataID,WdtFileDataID,NavigationMaxDistance,Flags_0,Flags_1,Flags_2
-509,AhnQiraj,"Ruins of Ahn'Qiraj",,,,,-8114.4643554688,1526.3657226562,1,2,0,3429,184,-1,-1,-1,0,1,1,20,0,0,775637,0,1553,134479880,0
 0,Azeroth,"Eastern Kingdoms",,,,,0,0,1,0,0,0,4,-1,-1,-1,0,1,-1,0,17,804940,775971,0,142622301,134479888,8
 1,Kalimdor,Kalimdor,,,,,0,0,1,0,0,0,3,-1,-1,-1,0,1,-1,0,17,804935,782779,0,142622301,134479888,8
 30,PVPZone01,"Alterac Valley","Hidden within the Alterac Mountains, Alterac Valley is the home of the Frostwolf clan.  The Stormpike dwarves have established a foothold in the valley and seek to plumb its depths for riches and links to their ancestral past.
@@ -26,7 +25,7 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 230,BlackrockDepths,"Blackrock Depths",,,,,-7178.0947265625,-928.63946533203,2,1,0,1584,103,-1,-1,-1,0,1,0,5,0,0,780172,0,1553,134479880,0
 249,OnyxiaLairInstance,"Onyxia's Lair",,,,,-4753.3125,-3752.4211425781,2,2,0,2159,61,-1,-1,-1,0,1,1,40,0,0,789922,0,34305,134479880,0
 269,CavernsOfTime,"Opening of the Dark Portal",,,,,-8750.8271484375,-4193.5131835938,1,1,1,0,212,-1,-1,-1,0,1,1,5,0,0,829736,0,1553,134479880,0
-289,SchoolofNecromancy,Scholomance,,,,,1274.78125,-2552.5639648438,1,1,0,0,102,-1,-1,-1,0,1,0,5,0,0,790713,0,1553,134479880,0
+289,SchoolofNecromancy,"Scholomance OLD",,,,,1274.78125,-2552.5639648438,1,1,0,0,102,-1,-1,-1,0,1,0,5,0,0,790713,0,1553,134479880,0
 309,Zul'gurub,"Ancient Zul'Gurub",,,,,-11916.059570312,-1224.5771484375,1,1,0,1977,161,-1,-1,-1,0,1,0,20,0,0,791432,0,525841,134479880,0
 329,Stratholme,Stratholme,,,,,3392.3168945312,-3378.4831542969,1,1,0,0,101,-1,-1,-1,0,1,0,5,0,0,791063,0,1553,134479880,0
 349,Mauradon,Maraudon,,,,,-1432.6971435547,2924.9775390625,2,1,0,2100,81,-1,-1,-1,0,1,1,10,0,0,788656,0,1553,134479880,0
@@ -48,6 +47,7 @@ As a 10 vs 10 capture-the-flag battleground, the first faction to capture three 
 Eager to aid their allies, members of every race in Azeroth rush to the Gulch to lend sword, or spell, to the conflict.","Capture the enemy flag","- Defend your flag
 - Capture the enemy flag
 - Most recent capture wins",0,0,1,3,0,3277,122,-1,-1,-1,0,1,-1,0,0,0,790291,0,1553,135004160,0
+509,AhnQiraj,"Ruins of Ahn'Qiraj",,,,,-8114.4643554688,1526.3657226562,1,2,0,3429,184,-1,-1,-1,0,1,1,20,0,0,775637,0,1553,134479880,0
 529,PVPZone04,"Classic Arathi Basin","The Arathi Basin is one of the main staging points of war between the humans and the Forsaken in Azeroth.
 
 Arathi Basin is a 15 vs 15 domination battleground, where each side attempts to control the Stables, Blacksmith, Mine, Lumbermill and Farm for as long as possible.
@@ -1159,22 +1159,12 @@ A large-scale battleground, each side attempts to destroy each other's tower for
 2573,2573,"Lost Arvillo",,,,,0,0,3,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,0,0,1553,262144,0
 2574,2574,"Dragon Isles",,,,,0,0,1,2,9,0,411,-1,-1,-1,0,1,-1,0,12,0,4668131,0,144711261,671352336,0
 2576,2576,"Sully Test Space",,,,,0,0,1,0,9,0,205,-1,-1,-1,0,1,-1,0,12,0,4676136,0,8404575,1040,0
-2579,2579,"Dawn of the Infinite",,,,,0,0,1,1,9,0,212,-1,-1,-1,0,1,-1,0,12,0,4693253,0,142622301,1040,0
 2582,2582,"Alterac Valley",,,,,0,0,1,5,0,0,104,-1,-1,-1,0,1,-1,0,12,0,4748811,0,8396381,1040,0
-2586,2586,"10.1.5 Time Rifts - Murloc (Azmerloth)",,,,,0,0,1,1,9,0,216,-1,571,571,0,1,-1,0,12,0,4862221,0,9453149,134218768,12
-2587,2587,"10.1.5 Time Rifts - Robot (A.Z.E.R.O.T.H.)",,,,,0,0,1,1,9,0,212,-1,-1,-1,0,1,-1,0,12,0,4862222,0,8396381,1024,0
+2586,2586,Unused,,,,,0,0,1,0,0,0,0,-1,-1,-1,0,1,-1,0,12,0,4862221,0,8396381,1024,0
+2587,2587,Unused,,,,,0,0,1,0,0,0,0,-1,-1,-1,0,1,-1,0,12,0,4862222,0,8396381,1024,0
 2590,2590,"The Azure Vault",,,,,0,0,1,5,9,0,598,-1,-1,-1,0,1,-1,0,12,0,4885845,0,-2136990115,537657904,0
-2593,2593,"10.1.5 Time Rifts - Black Empire (Azq'roth)",,,,,0,0,1,1,9,0,209,-1,-1,-1,0,1,-1,0,12,0,4899338,0,8396381,1040,0
-2594,2594,"10.1.5 Time Rifts - Argus Raid UNUSED",,,,,0,0,1,1,9,0,209,-1,-1,-1,0,1,-1,0,12,0,4899339,0,8396381,1040,0
-2595,2595,"10.1.5 Time Rifts - Demon (Azewrath)",,,,,0,0,1,1,9,0,209,-1,-1,-1,0,1,-1,0,12,0,4899340,0,8396381,1040,0
 2597,2597,"10.1 Zaralek Caverns - Chapter 1 Scenario",,,,,0,0,1,5,9,0,603,-1,2454,2454,0,1,-1,0,12,0,4910820,0,8396381,134218768,0
 2600,2600,"10.1 Zaralek Caverns - Chapter 6 Scenario",,,,,0,0,1,5,9,0,609,-1,-1,-1,0,1,-1,0,12,0,4911025,0,8396381,1040,0
-2614,2614,"[DNT] DELETE",,,,,-7522.5268554688,-1233.0415039062,2,5,9,0,603,-1,-1,-1,0,1,0,10,12,0,4953583,0,8396353,134218768,0
 2616,2616,"Zskera Vaults",,,,,0,0,4,0,9,0,0,-1,-1,-1,0,1,-1,0,12,0,4955706,0,3585,262144,0
 2625,2625,"Deathwing's Final Moment",,,,,0,0,1,5,9,0,603,-1,-1,-1,0,1,-1,0,0,0,5003819,0,7773,134479880,0
-2634,2634,"10.1.5 Time Rifts - HvA (The Warlands)",,,,,0,0,1,1,9,0,209,-1,1642,1642,0,1,-1,0,12,0,5096986,0,142622301,134218768,0
-2635,2635,"10.1.5 Time Rifts - Titan (Ulderoth)",,,,,0,0,1,1,9,0,209,-1,-1,-1,0,1,-1,0,12,0,5104091,0,142622301,1040,0
-2636,2636,"Dragon Isles",,,,,0,0,1,0,9,0,603,-1,-1,-1,0,1,-1,0,12,4763832,5105540,1600,160448095,1040,12
-2639,2639,"10.1.5 Time Rifts - Scourge (Azmourne)",,,,,0,0,1,1,9,0,209,-1,-1,-1,0,1,-1,0,12,0,5141708,0,8396381,1040,0
-2645,2645,"10.1.5 Scarlet Monastery - Headless Horseman Revamp",,,,,0,0,1,1,9,0,333,-1,-1,-1,0,1,-1,0,12,0,5169538,0,9444957,262144,0
 2556,2556,"Emerald Dreamway",,,,,0,0,1,5,9,0,418,0,-1,-1,0,1,-1,0,12,0,4541813,0,8404573,134480912,0

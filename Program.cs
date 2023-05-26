@@ -303,21 +303,21 @@ Console.WriteLine("here");
             var patchnum = version_build.Substring("WOW-".Length, patchindex - "WOW-".Length);
             var buildnum = version_build.Substring(patchindex + "patch".Length, productindex - (patchindex + "patch".Length));
             var formatedbuild = buildnum+"."+patchnum;
-            /*deprecated, check wago?
+
             using (var wb = new WebClient())
             {
                 wb.Headers.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36");
-                var response = wb.DownloadString("https://wow.tools/dbc/api/export/?name=map&build="+formatedbuild);
+                var response = wb.DownloadString("https://wago.tools/db2/Map/csv?build="+formatedbuild);
                 System.IO.File.WriteAllText("map.csv", response);
-                Console.WriteLine("downloaded map https://wow.tools/dbc/api/export/?name=map&build="+formatedbuild);
+                Console.WriteLine("downloaded map https://wago.tools/db2/Map/csv?build="+formatedbuild);
             }
             using (var wb = new WebClient())
             {
                 wb.Headers.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36");
-                var response = wb.DownloadString("https://wow.tools/dbc/api/export/?name=areatable&build="+formatedbuild);
+                var response = wb.DownloadString("https://wago.tools/db2/AreaTable/csv?build="+formatedbuild);
                 System.IO.File.WriteAllText("areatable.csv", response);
-                Console.WriteLine("downloaded area https://wow.tools/dbc/api/export/?name=areatable&build="+formatedbuild);
-            } */   
+                Console.WriteLine("downloaded area https://wago.tools/db2/AreaTable/csv?build="+formatedbuild);
+            } 
             return cascHandler;
         }
     }
